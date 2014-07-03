@@ -1,18 +1,20 @@
 title: STAR WARS!!!
-description: "Pick one of the items below:"
+You are a clone commando you have crashed on a seperatist controlled planet, all they others died in the crash, you already have a standerd blaster you salveged a couple things from the ship, you only have room in your backpack for two items and one which you will hold, which items do you choose?
+description: "Pick two of the items below:"
 stuff:
   limit: 3
-  limit_message: "Your crew shot you."
+  limit_message: "your backpack burst! and the falling items hit a grenade which you forgot about on your belt detonating it you DIE! to bad."
   options:
-    - Blaster
-    - Grappling Hook
-    - Shield Generator
-    - Sniper Rifle
-    - Thermal Detonator
-    - Electronic Lock Pick
-questions:
-  - text: Some question text
-    options:
+    - EMP grenade 
+    - Knuckle plate vibro blade 
+    - Thermal detonator
+    - Dampener aerosol
+    - Geonosian Elite Beam Weapon
+    - Commando recon droid
+questions: 
+  - text: You start looking around suddenly a large droid pratrol of about 30 come around the corner will you
+    options: 1.start shooting them with your blaster
+             2.fire an EMP grenade and run away fast!    
 
       - text: Something else
         goto_file: branch_name.yml
