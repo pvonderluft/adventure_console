@@ -17,9 +17,4 @@ questions:
              2.fire an EMP grenade and run away fast!    
 
       - text: Something else
-        goto_file: branch_name.yml
-        requires_stuff: 
-          - blaster
-
-      - text: Another question
-        death: You die
+        goto_file: branch.yml
